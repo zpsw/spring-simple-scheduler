@@ -14,7 +14,6 @@ import org.springframework.stereotype.Component;
 public class TestService {
 
     public void test() {
-        log.info("Hello");
-        log.info("Hello2");
+        log.info("Hello World");
     }
 }
