@@ -1,4 +1,6 @@
-JAVA_HOME="/usr/java/jdk1.8.0_131"
-
-
-exec $JAVA_HOME/bin/java -jar app.jar
+if [ -z "$JAVA_HOME" ]; then
+  RUN_JAVA=java
+else
+  RUN_JAVA="$JAVA_HOME"/bin/java
+fi
+exec $RUN_JAVA -jar app.jar
