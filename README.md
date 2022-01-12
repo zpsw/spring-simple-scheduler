@@ -1,3 +1,3 @@
 # Spring Boot 定时任务
 可以在不重启应用的情况下实现定时规则的改变
-直接更改generator.properties里的cron表达式即可
+直接更改conf/generator.properties里的cron表达式即可
